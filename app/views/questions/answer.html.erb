@@ -1,0 +1,14 @@
+
+<div class="jumbotron">
+<div class="container">
+<h1 class="display-4">Stupid coaching</h1>
+<div class="container1 p-3 mb-2">
+<div><%= @question %></div>
+<div><i>-You</i></div></div>
+<div class="container1 p-3 mb-2 bg-warning" style="--bs-bg-opacity: .5">
+<div><%= @answer %></div>
+<div><i>-Your coach</i></div>
+</div>
+
+<%= link_to("Ask a new question", ask_path , class: "link")%>
+</div>
